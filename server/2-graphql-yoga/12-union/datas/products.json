@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "name": "Haribo Gummy Bears",
+    "price": 1.50
+  },
+  {
+    "id": "2",
+    "name": "Sour Patch Kids",
+    "price": 2.50
+  },
+  {
+    "id": "3",
+    "name": "Wonka Nerds",
+    "restockDate": "2012-04-23T18:25:43.511Z"
+  },
+  {
+    "id": "4",
+    "name": "Swirly Pops",
+    "availableRegions": [
+      "San Jose"
+    ]
+  }
+]
