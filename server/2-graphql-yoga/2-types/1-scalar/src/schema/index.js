@@ -5,7 +5,7 @@ const schema = `
         email: String
         age: Int
         note: Float
-        isDevelopper: Boolean
+        isDeveloper: Boolean
     }
 `;
 

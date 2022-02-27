@@ -6,7 +6,7 @@ const resolvers = {
         email: () => 'john-doe@test.com',
         age: () => 35,
         note: () => 5.2,
-        isDevelopper: () => true,
+        isDeveloper: () => true,
     },
 };
 

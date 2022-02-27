@@ -7,6 +7,6 @@ query user {
     email
     age
     note
-    isDevelopper
+    isDeveloper
 }
 ```
