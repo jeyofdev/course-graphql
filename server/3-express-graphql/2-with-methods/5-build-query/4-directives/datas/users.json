@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "name": "John",
+    "email": "john@test.com",
+    "pet": "tiger",
+    "petName": "tig"
+  },
+  {
+    "id": "2",
+    "name": "Marie",
+    "email": "marie@test.com",
+    "pet": "blue-whale",
+    "petName": "neela"
+  },
+  {
+    "id": "3",
+    "name": "Bobby",
+    "email": "bobby@test.com",
+    "pet": "crocodile",
+    "petName": "croku"
+  },
+  {
+    "id": "4",
+    "name": "Bryan",
+    "email": "bryan@test.com",
+    "pet": "crocodile"
+  },
+  {
+    "id": "5",
+    "name": "Alfred",
+    "email": "alfred@test.com",
+    "pet": "tiger",
+    "petName": "sheru"
+  }
+]
