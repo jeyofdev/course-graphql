@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "John",
+    "email": "john@test.com",
+    "status": "admin"
+  },
+  {
+    "id": "2",
+    "name": "Marie",
+    "email": "marie@test.com",
+    "status": "super admin"
+  },
+  {
+    "id": "3",
+    "name": "Bobby",
+    "email": "bobby@test.com",
+    "status": "admin"
+  },
+  {
+    "id": "4",
+    "name": "Bryan",
+    "email": "bryan@test.com",
+    "status": "user"
+  },
+  {
+    "id": "5",
+    "name": "Alfred",
+    "email": "alfred@test.com",
+    "status": "user"
+  }
+]
