@@ -10,7 +10,7 @@
 
 ```javascript
 {
-  "courseTitle": "JavaScript: Understanding The Weird Parts",
+  "courseTitle": "JavaScript: Understanding The Weird Parts"
 }
 ```
 

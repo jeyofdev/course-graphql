@@ -22,14 +22,18 @@ class WilderResolver {
 
         await wilder.save();
 
-        return wilder;
+        return Wilder.findOne({ id: wilder.id }, { relations: ['skills'] });
     }
 
     @Mutation(() => Wilder)
     async deleteWilder(@Args() { id }: DeleteWilderInput) {
-        const wilder = await Wilder.findOneOrFail({ id });
+        const wilder = await Wilder.findOneOrFail(
+            { id },
+            { relations: ['skills'] }
+        );
         await Wilder.remove(wilder);
-        return wilder;
+
+        return { ...wilder, id };
     }
 
     @Mutation(() => Wilder)
@@ -37,7 +41,10 @@ class WilderResolver {
         const wilder = await Wilder.findOneOrFail({ id });
         await Wilder.update(wilder, { name, city });
 
-        const updatedWilder = await Wilder.findOne({ id });
+        const updatedWilder = await Wilder.findOne(
+            { id },
+            { relations: ['skills'] }
+        );
 
         return updatedWilder;
     }
