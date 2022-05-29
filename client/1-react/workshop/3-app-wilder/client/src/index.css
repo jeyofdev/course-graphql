@@ -1,0 +1,33 @@
+/* 
+ * global. css 
+ */
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-link {
+    text-decoration: none;
+    background-color: #f76c6c;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.btn-user-link {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #f76c6c;
+    color: white;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
